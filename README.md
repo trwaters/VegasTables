@@ -13,3 +13,5 @@ g++ bicubic_speed_test.cpp -o place_bets -lgsl -lm
 ```
 
 For further documentation, refer to the header information in vegas_tables.h
+
+There is a C-wrapper for this code - contact me to get a hold of that.
