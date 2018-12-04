@@ -1,7 +1,5 @@
 # VegasTables
-Bicubic interpolator to interface with hydro codes.
-
-More specifically, this is C++ code to perform bicubic interpolation (using GSL) on tabular data to accurately add micropysical source terms to the equations of gas dynamics.  It was specifically developed to utilize the tables [here](http://www.physics.unlv.edu/astro/xstartables.html).
+This is C++ code utilzing GSL routines to perform bicubic interpolation on tabular data for the purpose of accurately evaluating micropysical source terms to the equations of gas dynamics.  It was specifically developed to utilize the tables [here](http://www.physics.unlv.edu/astro/xstartables.html).
 
 The code is self-contained in a .h file so that it can easily be called within a hydro code.  For example, to interface with Athena++, create folder named 'user' in /src and place vegas_tables.h there, and then call it from any pgen using
 ```
