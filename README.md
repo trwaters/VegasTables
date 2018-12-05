@@ -6,7 +6,7 @@ The code is self-contained in a .h file so that it can easily be called within a
 #include "../user/vegas_tables.h"  
 ```
 
-The example driver bicubic_speed_test.cpp compares the speed of 1000 random evalutions using both bilinear and bicubic interpolation on the sample table Blondin_100by200.dat.  Compile and run it using
+The example driver bicubic_speed_test.cpp provides an example of initializing and using a table.  It compares the speed of 1000 random evalutions using both bilinear and bicubic interpolation on the sample table Blondin_100by200.dat.  Compile and run it using
 ```
 g++ bicubic_speed_test.cpp -o place_bets -lgsl -lm
 ./place_bets
@@ -14,4 +14,4 @@ g++ bicubic_speed_test.cpp -o place_bets -lgsl -lm
 
 For further documentation, refer to the header information in vegas_tables.h
 
-There is a C-wrapper for this code - contact me to get a hold of that.
+There is a C-wrapper for this code available.  Just contact me to get a hold of that.  
